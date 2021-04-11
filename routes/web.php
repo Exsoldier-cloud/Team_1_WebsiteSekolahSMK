@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::get('/profile', 'ProfileController@index');
+Route::get('/home','HomeController@index');
